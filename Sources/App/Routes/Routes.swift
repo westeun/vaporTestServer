@@ -20,6 +20,10 @@ extension Droplet {
             return "Swift is amazing!"
         }
 
+        get("mitch") { req in
+            return "Borbatov is een wijze man"
+        }
+        
         // response to requests to /info domain
         // with a description of the request
         get("info") { req in
