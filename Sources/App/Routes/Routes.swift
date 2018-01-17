@@ -15,6 +15,10 @@ extension Droplet {
         get("creator") { req in
             return "My name is Wesley Teunissen"
         }
+        
+        get("swift") { req in
+            return "Swift is amazing!"
+        }
 
         // response to requests to /info domain
         // with a description of the request
