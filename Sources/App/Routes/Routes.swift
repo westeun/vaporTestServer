@@ -24,6 +24,10 @@ extension Droplet {
             return "Borbatov is een wijze man"
         }
         
+        get("bae") { req in
+            return "Patricia is my Bae <3 Forever and always <3"
+        }
+        
         // response to requests to /info domain
         // with a description of the request
         get("info") { req in
